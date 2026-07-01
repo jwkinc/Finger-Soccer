@@ -51,3 +51,9 @@ V25 updates:
 - Goal scoring sensor now triggers reliably when the ball breaks the plane inside the goal slot.
 - Added explicit own-goal support: if a player knocks the ball into their own net, the opponent scores.
 - Kickoff still returns to the side that conceded.
+
+
+V26 updates:
+- Fixed City and Country theme scaling so the playable field stays on-screen.
+- Added a safety clamp in board setup to keep the field visible across widescreen sizes.
+- Kept Classic, goals, scoring, and own-goal behavior from v25.
