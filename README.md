@@ -63,3 +63,9 @@ V27 updates:
 - Reduced zoom on Classic, City, and Country themes.
 - Added a true auto-fit step that scales the whole board down if the playable field would run off-screen.
 - Recent goal/scoring/own-goal behavior is unchanged.
+
+
+V28 updates:
+- Zoomed Classic, City, and Country back in a bit so the boards fill the screen more.
+- Reduced the safe-fit padding while keeping the playable field visible.
+- Confirmed Country uses the exact shared pin formation and shared goal setup used by Classic.
