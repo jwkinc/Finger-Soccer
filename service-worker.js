@@ -1,4 +1,4 @@
-const CACHE_NAME = "finger-flick-soccer-v28-zoom-in-shared-country";
+const CACHE_NAME = "finger-flicken-soccer-v37-detail";
 const ASSETS = [
   "./",
   "./index.html",
