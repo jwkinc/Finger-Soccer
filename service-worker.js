@@ -1,4 +1,4 @@
-const CACHE_NAME = "finger-flicken-soccer-v38-sfx";
+const CACHE_NAME = "finger-flicken-soccer-v39-stadium";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,7 +6,9 @@ const ASSETS = [
   "./assets/icon-192.png",
   "./assets/icon-512.png",
   "./assets/soccer-kick.mp3",
-  "./assets/announcer-says-goal-meme.mp3"
+  "./assets/announcer-says-goal-meme.mp3",
+  "./assets/basket-ball-bounce.mp3",
+  "./assets/stadium.jpg"
 ];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
